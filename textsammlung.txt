@@ -1,0 +1,56 @@
+Zielsetzung
+
+- Flexibilität
+- Kostensenkung
+	* Kurze Lagerhaltung
+	* Kurze Produktionsdauer
+	* TTM (Geplante Modelle verkaufen)
+- Zufriedene Kunden
+	* Service
+	* Schnelle Lieferung
+	* auf Wünsche reagieren können (Extras...)
+- Verbesserte Qualität
+- Zuverlässigkeit
+- Fehlervermeidung
+- Kontinuierlicher Verbesserungsprozess
+	* sich selbst optimierendes System
+	* Kaizen-Prinzip
+- Informationstransparenz
+- Prozess-Standardizierung
+- Synchronisierung der Prozesse
+
+
+------------------------------------
+Problembeschreibung
+
+- Viele unabhängige beteiligte Instanzen und Personen
+- Synchronizierung der Prozesse
+- Viele Gefahren für hohe Kosten/hohen Imageverlust durch kleine Fehler 
+- Toyota operiert auf globaler Ebene ; Multinationalität
+	* Unterschiedliche Regularien zu berücksichtigen (Gesetze, Normen,...)
+- Viele Produkte und Produktvarianten
+- Hohe Komplexität bei möglichst leichter Bedienbarkeit
+- Logistische Probleme
+	* Transport zum Kunden
+	* Rohstoffbeschaffung
+	* Just-in-time Produktion
+- Widerspruch: Standardisierte Bauteile vs. Variable Produkte
+
+------------------------------------
+Glossar
+
+Kunde
+Händler
+Distributor
+Option
+Supply Chain
+Auftrag/Bestellung
+Buchung
+Fabrik
+Auto
+Modell
+Kaizen-Prinzip
+TPS
+TTM
+
+
