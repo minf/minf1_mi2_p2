@@ -5,6 +5,6 @@
 \contentsline {subsection}{\numberline {3.1}fachliches Klassendiagramm}{2}
 \contentsline {subsection}{\numberline {3.2}Aktivit\IeC {\"a}tsdiagramme}{3}
 \contentsline {subsection}{\numberline {3.3}Anwendungsfalldiagramme}{3}
-\contentsline {subsection}{\numberline {3.4}Komponentendiagramme}{4}
-\contentsline {subsection}{\numberline {3.5}Dialoge}{4}
+\contentsline {subsection}{\numberline {3.4}Komponentendiagramme}{3}
+\contentsline {subsection}{\numberline {3.5}Dialoge}{3}
 \contentsline {section}{\numberline {4}Glossar}{4}

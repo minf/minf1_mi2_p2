@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.11.22)  24 NOV 2010 21:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.11.22)  24 NOV 2010 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -200,20 +200,22 @@ File: activity2.eps Graphic file (type eps)
  <activity2.eps> [2]
 File: usecases.eps Graphic file (type eps)
 
-<usecases.eps> [3]
-Overfull \hbox (62.38867pt too wide) in paragraph at lines 152--153
+<usecases.eps>
+File: dialog_config.eps Graphic file (type eps)
+ <dialog_config.eps> [3]
+Overfull \hbox (62.38867pt too wide) in paragraph at lines 164--165
 []\OT1/cmr/m/n/10 Ein na-tio-na-ler Dis-tri-bu-tor nimmt H[]andlerbestellungen 
 ent-ge-gen, kon-so-li-diert H[]andlerbestellungen
  []
 
-[4] [5] [6] (./protokoll.aux) ) 
+[4] [5] [6] [7] (./protokoll.aux) ) 
 Here is how much of TeX's memory you used:
- 2135 strings out of 495022
- 27739 string characters out of 1181057
+ 2138 strings out of 495022
+ 27787 string characters out of 1181057
  88480 words of memory out of 3000000
- 5329 multiletter control sequences out of 15000+50000
+ 5331 multiletter control sequences out of 15000+50000
  7895 words of font info for 28 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,6n,24p,328b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on protokoll.dvi (6 pages, 10396 bytes).
+Output written on protokoll.dvi (7 pages, 10892 bytes).
