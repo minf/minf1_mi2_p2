@@ -53,4 +53,26 @@ Kaizen-Prinzip
 TPS
 TTM
 
+---------------------------------
 
+UML - Komponentendiagramm
+http://en.wikipedia.org/wiki/Component_diagram
+http://www.uml-diagrams.org/component-diagrams.html
+http://www.agilemodeling.com/artifacts/componentDiagram.htm
+http://www.agilemodeling.com/style/componentDiagram.htm
+http://www.itmeyer.at/umlet/uml2/CompositeStructureDiagram2.html
+
+[Datenbank]
+   |
+   o
+ (sql?)
+
+   ^
+   |
+<< uses >>
+   |
+[Persistence]
+   |
+   o  
+
+*argh*
