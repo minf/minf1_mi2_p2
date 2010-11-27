@@ -1,10 +1,10 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Zielsetzung und nicht-funktionale Anforderungen}{1}
-\contentsline {section}{\numberline {2}Problembeschreibung}{2}
-\contentsline {section}{\numberline {3}UML-Modellierung}{2}
-\contentsline {subsection}{\numberline {3.1}fachliches Klassendiagramm}{2}
-\contentsline {subsection}{\numberline {3.2}Aktivit\IeC {\"a}tsdiagramme}{3}
-\contentsline {subsection}{\numberline {3.3}Anwendungsfalldiagramme}{3}
-\contentsline {subsection}{\numberline {3.4}Komponentendiagramme}{3}
-\contentsline {subsection}{\numberline {3.5}Dialoge}{3}
-\contentsline {section}{\numberline {4}Glossar}{4}
+\contentsline {section}{\numberline {1}Zielsetzung und nicht-funktionale Anforderungen}{1}{section.1}
+\contentsline {section}{\numberline {2}Problembeschreibung}{2}{section.2}
+\contentsline {section}{\numberline {3}UML-Modellierung}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}fachliches Klassendiagramm}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Aktivit\IeC {\"a}tsdiagramme}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Anwendungsfalldiagramme}{3}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Komponentendiagramm}{3}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Dialoge}{3}{subsection.3.5}
+\contentsline {section}{\numberline {4}Glossar}{4}{section.4}

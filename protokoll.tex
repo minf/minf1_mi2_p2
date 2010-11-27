@@ -1,11 +1,11 @@
-
-\documentclass[a4paper,10pt,left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{article}
+\documentclass[a4paper,10pt,left=4.5cm,right=3cm,top=1cm,bottom=2cm]{article}
 
 \usepackage{geometry}
 
-\geometry{a4paper,left=4.5cm,right=3cm,top=1cm,bottom=2cm}
+%\geometry{a4paper,left=4.5cm,right=3cm,top=1cm,bottom=2cm}
 
 \usepackage[utf8x]{inputenc}
+\usepackage[bookmarks]{hyperref}
 \usepackage{url}
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
@@ -13,7 +13,7 @@
 \parindent 0pt 
 \parskip 10pt
 
-\title{1. Praktikum: Modellierung von Informationssystemen}
+\title{2. Praktikum: Modellierung von Informationssystemen}
 \author{Andreas Krohn \and Benjamin Vetter}
 
 \begin{document}
@@ -99,7 +99,7 @@ Dieser Abschnitt beinhaltet die von uns angefertigten UML-Diagramme bzgl. der Mo
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{fachlichesKlassendiagramm.eps}
+   \includegraphics[width=1\textwidth]{fachlichesKlassendiagramm}
     \caption{fachliches Klassendiagramm}
     \label{klassendiagramm}
   \end{center}
@@ -111,7 +111,7 @@ Abbildung \ref{klassendiagramm} zeigt unser fachliches Klassendiagramm.
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{activity.eps}
+   \includegraphics[width=1\textwidth]{activity}
     \caption{Aktivitätsdiagramme 1}
     \label{aktivitaetsdiagramme}
   \end{center}
@@ -119,7 +119,7 @@ Abbildung \ref{klassendiagramm} zeigt unser fachliches Klassendiagramm.
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{activity2.eps}
+   \includegraphics[width=1\textwidth]{activity2}
     \caption{Aktivitätsdiagramme 2}
     \label{aktivitaetsdiagramme2}
   \end{center}
@@ -131,7 +131,7 @@ Abbildung \ref{aktivitaetsdiagramme} und \ref{aktivitaetsdiagramme2} zeigt unser
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{usecases.eps}
+   \includegraphics[width=1\textwidth]{usecases}
     \caption{Anwendungsfälle}
     \label{anwendungsfalldiagramme}
   \end{center}
@@ -139,7 +139,18 @@ Abbildung \ref{aktivitaetsdiagramme} und \ref{aktivitaetsdiagramme2} zeigt unser
 
 Abbildung \ref{anwendungsfalldiagramme} zeigt unsere Anwendungsfalldiagramme.
 
-\subsection{Komponentendiagramme}
+\subsection{Komponentendiagramm}
+
+\begin{figure}[htb]
+ \begin{center}
+   \includegraphics[width=1\textwidth]{komponentenDiagramm}
+    \caption{Komponentendiagramm}
+    \label{komponentendiagramm}
+  \end{center}
+\end{figure}
+
+Abbildung \ref{komponentendiagramm} zeigt unser Komponentendiagramm.
+
 
 \subsection{Dialoge}
 
@@ -149,7 +160,7 @@ Konkret stellen wir uns das Konfigurationssystem wie in Abbildung \ref{konfigura
 \begin{figure}[htb]
  \begin{center}
 \hspace*{-7cm}
-   \includegraphics[width=1\textwidth]{dialog_config.eps}
+   \includegraphics[width=1\textwidth]{dialog_config}
     \caption{Konfigurationssystem}
     \label{konfigurator}
   \end{center}
