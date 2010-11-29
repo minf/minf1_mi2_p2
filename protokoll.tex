@@ -1,11 +1,11 @@
-\documentclass[a4paper,10pt,left=4.5cm,right=3cm,top=1cm,bottom=2cm]{article}
+\documentclass[a4paper,10pt]{article}
 
 \usepackage{geometry}
-
-%\geometry{a4paper,left=4.5cm,right=3cm,top=1cm,bottom=2cm}
+%\geometry{a4paper,left=2.5cm,right=2cm,top=3cm,bottom=2cm}
 
 \usepackage[utf8x]{inputenc}
-\usepackage[bookmarks]{hyperref}
+\usepackage[bookmarks,colorlinks=false,pdfborder={0 0 0}]{hyperref}
+\hypersetup{pdftitle={2. Praktikum: Modellierung von Informationssystemen}}
 \usepackage{url}
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
@@ -24,7 +24,7 @@
 
 \section{Zielsetzung und nicht-funktionale Anforderungen}
 
-\begin{itemize}
+\begin{description}
   \item[Flexibilität] Das System muss flexibel erweiterbar bzw. adaptierbar sein, damit es bei starken Veränderungen in der Zukunft zügig und kosteneffizient an neue Anforderungen angepasst werden kann.
   \item[Kostensenkung] Das System sollte optimal dabei unterstützen alle Kosten die während der Produktion anfallen zu minimieren.
 Insbesondere sollte es Lagerhaltungskosten minimieren und eine minimale Produktionsdauer ermöglichen.
@@ -34,15 +34,15 @@ Insbesondere sollte es Lagerhaltungskosten minimieren und eine minimale Produkti
   \item[Verbesserungsprozess] Das Kaizen-Prinzip, das auf ständige Verbesserung abzielt muss auch Prinzip des Toyota-Produktionssystems sein.
 %  \item[Informationstransparenz] 
   \item[Prozess-Standardisierung] Die Prozesse sollen, soweit möglich, mithilfe des Systems standardisiert werden, um die Kompatibilität mit externen Systemen zu erhöhen.
-  \item[Synchronisierung der Prozesse] Die Prozesse sollen mithilfe des Systems synchronisiert werden, damit es weder zu Engpässen noch zu zeitlichen Verzögerungen kommt.
+  \item[Prozess-Synchronisierung] Die Prozesse sollen mithilfe des Systems synchronisiert werden, damit es weder zu Engpässen noch zu zeitlichen Verzögerungen kommt.
   \item[Skalierbarkeit] Das System muss mit großen Datenmengen stets performant umgehen können.
-  \item[Einfache Bedienbarkeit] Für teschnisch unversierte Benutzer, wie z.B. Händler, muss das System dennoch einfach benutzbar sein. 
+  \item[Einfache Bedienbarkeit] Für technisch unversierte Benutzer, wie z.B. Händler, muss das System dennoch einfach benutzbar sein. 
 Während Beratungsgesprächen und der Konfiguration werden Systemteile Kunden präsentiert und müssen daher ansprechend gestaltet sein.
 Komplexität muss vor den Benutzern verborgen werden.
   \item[Sicherheit] Sensitive Informationen wie personenbezogene Daten müssen vertraulich behandelt werden (Vertraulichkeit). 
 Systemausfälle sind fatal, sodass Vorsorge zu treffen ist (Verfügbarkeit). 
 Unautorisierte Manipulation von Daten muss ausgeschlossen werden (Integrität).
-\end{itemize}
+\end{description}
 
 %- Flexibilität
 %- Kostensenkung
@@ -99,7 +99,7 @@ Dieser Abschnitt beinhaltet die von uns angefertigten UML-Diagramme bzgl. der Mo
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{fachlichesKlassendiagramm}
+   \includegraphics[width=1\textwidth]{fachlichesKlassendiagramm.eps}
     \caption{fachliches Klassendiagramm}
     \label{klassendiagramm}
   \end{center}
@@ -111,7 +111,7 @@ Abbildung \ref{klassendiagramm} zeigt unser fachliches Klassendiagramm.
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{activity}
+   \includegraphics[width=1\textwidth]{activity.eps}
     \caption{Aktivitätsdiagramme 1}
     \label{aktivitaetsdiagramme}
   \end{center}
@@ -119,7 +119,7 @@ Abbildung \ref{klassendiagramm} zeigt unser fachliches Klassendiagramm.
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{activity2}
+   \includegraphics[width=1\textwidth]{activity2.eps}
     \caption{Aktivitätsdiagramme 2}
     \label{aktivitaetsdiagramme2}
   \end{center}
@@ -131,7 +131,7 @@ Abbildung \ref{aktivitaetsdiagramme} und \ref{aktivitaetsdiagramme2} zeigt unser
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{usecases}
+   \includegraphics[width=0.9\textwidth]{usecases.eps}
     \caption{Anwendungsfälle}
     \label{anwendungsfalldiagramme}
   \end{center}
@@ -143,7 +143,8 @@ Abbildung \ref{anwendungsfalldiagramme} zeigt unsere Anwendungsfalldiagramme.
 
 \begin{figure}[htb]
  \begin{center}
-   \includegraphics[width=1\textwidth]{komponentenDiagramm}
+%   \includegraphics[angle=90,width=0.7\textwidth]{komponentenDiagramm.eps}
+   \includegraphics[width=1\textwidth]{komponentenDiagramm.eps}
     \caption{Komponentendiagramm}
     \label{komponentendiagramm}
   \end{center}
@@ -160,15 +161,27 @@ Konkret stellen wir uns das Konfigurationssystem wie in Abbildung \ref{konfigura
 \begin{figure}[htb]
  \begin{center}
 \hspace*{-7cm}
-   \includegraphics[width=1\textwidth]{dialog_config}
+   \includegraphics[width=1\textwidth]{dialog_config.eps}
     \caption{Konfigurationssystem}
     \label{konfigurator}
   \end{center}
 \end{figure}
 
+Die Benutzerschnittstelle für internationale und nationale Distributoren zur Konsolidierung der Auträge soll übersichtlich, funktional und auf die wesentlichen Aufgaben fokussiert sein.
+Eine Skizze, wie diese Benutzerschnittstelle aussehen könnte findet sich in Abbildung \ref{konsolidator}.
+
+\begin{figure}[htb]
+ \begin{center}
+   \includegraphics[width=1\textwidth]{dialog_konsolidierung.eps}
+    \caption{Konsolidierungsdialog}
+    \label{konsolidator}
+  \end{center}
+\end{figure}
+
+
 \section{Glossar}
 
-\begin{itemize}
+\begin{description}
   \item[TPS] Das Toyota Production System ist der Oberbegriff für das gesamte Produktionssystem von Toyota.
   \item[Supply Chain] In der Supply Chain (englisch Liefer- oder Versorgungskette) können Händler zusammen mit Kunden nach bereits gefertigten Autos suchen, die der gewünschten Konfiguration möglichst stark entsprechen.
   \item[Händler] Ein Händler ist der direkte Bezugspunkt für Endkunden.
@@ -176,7 +189,7 @@ Konkret stellen wir uns das Konfigurationssystem wie in Abbildung \ref{konfigura
   \item[Internationaler Distributor] Ein internationaler Distributor nimmt Bestellungen nationaler Distributoren entgegen, konsolidiert die Bestellungen und gibt Farbikbestellungen auf.
   \item[Fabrik] Eine Fabrik ist zuständig für die Fertigung von Fabrikaufträgen und leitet die Lieferungsprozess ein.
   \item[Kaizen-Prinzip] japanisch "`Verbesserung zum Besseren"' bezeichnet eine japanische Lebens- und Arbeitsphilosophie. Im Zentrum des Kaizen-Prinzips steht das Streben nach ständiger Verbesserung.
-\end{itemize}
+\end{description}
 
 \end{document}
 
